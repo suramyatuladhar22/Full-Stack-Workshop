@@ -1,136 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-
-  <!-- EXERCISE 10 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Sarayu Gautam</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-  <header class="site-header">
-    <nav>
+<body id="home">
 
-      <a href="#" class="logo">Sarayu <span>Gautam</span></a>
+    <header class="site-header">
+        <nav class="nav">
 
-      <ul class="nav-links">
-        <li><a href="#work">Work</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#teaching">Teaching</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+            <div class="logo">
+                <a href="#home">STUDY KTM</a>
+            </div>
 
-  <main>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about_us">About Us</a></li>
+            </ul>
 
-    <div class="content">
+        </nav>
+    </header>
 
-      <section class="hero">
-        <img src="images/hero.svg" alt="Abstract geometric composition">
-        <div class="hero-text">
-          <p class="eyebrow">Full stack / Kathmandu</p>
-          <h1>Sarayu Gautam</h1>
-          <p>I build small web tools that solve one problem properly, and
-             I teach other people how to build them too.</p>
-          <a href="#work" class="button">Selected work</a>
+    <article class="hero">
+
+        <div class="hero_img">
+            <img src="images/online_courses.jpeg" alt="Online Courses">
         </div>
-      </section>
 
-      <section class="gallery-section" id="work">
-        <h2>Selected work</h2>
+        <div class="hero_text">
+            <h1>Open Source Courses</h1>
+            <p>
+                Access complete, freely available training course materials and adapt them to fit your learning environment, training curriculum, or developer community needs.
+            </p>
 
-        <div class="gallery">
-
-          <article class="card feature">
-            <img src="images/card-1.svg" alt="">
-            <div class="card-body">
-              <p class="card-meta"><span>01</span>PHP / MySQL</p>
-              <h3>Marks Ledger</h3>
-              <p>A gradebook that replaced fourteen spreadsheets. Handles
-                 four modules, six assessment points, and one very
-                 opinionated export format.</p>
-              <a href="#" class="card-link">Read more</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <img src="images/card-2.svg" alt="">
-            <div class="card-body">
-              <p class="card-meta"><span>02</span>JavaScript</p>
-              <h3>Route 27</h3>
-              <p>Bus timings for the route I actually take.</p>
-              <a href="#" class="card-link">Read more</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <img src="images/card-3.svg" alt="">
-            <div class="card-body">
-              <p class="card-meta"><span>03</span>PHP</p>
-              <h3>Load Shedding</h3>
-              <p>Area schedules, searchable, with no adverts on it.</p>
-              <a href="#" class="card-link">Read more</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <img src="images/card-4.svg" alt="">
-            <div class="card-body">
-              <p class="card-meta"><span>04</span>CSS</p>
-              <h3>Type Tester</h3>
-              <p>Devanagari and Latin side by side, at real sizes.</p>
-              <a href="#" class="card-link">Read more</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <img src="images/card-5.svg" alt="">
-            <div class="card-body">
-              <p class="card-meta"><span>05</span>JavaScript</p>
-              <h3>Momo Index</h3>
-              <p>Every momo place near the college, ranked properly.</p>
-              <a href="#" class="card-link">Read more</a>
-            </div>
-          </article>
-
+            <a href="#courses">
+                <button>Explore Open Source Courses</button>
+            </a>
         </div>
-      </section>
 
-    </div>
+    </article>
 
-    <aside id="about">
-      <h2>About</h2>
+    <main>
 
-      <figure>
-        <img src="images/profile.svg" alt="Abstract portrait mark">
-        <figcaption>Sarayu Gautam, Kathmandu.</figcaption>
-      </figure>
+        <section id="courses" class="courses">
 
-      <p>I teach full stack web development at Herald College Kathmandu
-         and build things in PHP and JavaScript the rest of the time.</p>
 
-      <h3 id="teaching">Teaching</h3>
-      <dl class="meta-list">
-        <dt>Module</dt>
-        <dd>5CS045 Full Stack Web Development</dd>
-        <dt>Prerequisite</dt>
-        <dd>Internet Software Architecture</dd>
-        <dt>Term</dt>
-        <dd>Twelve weeks, one project</dd>
-      </dl>
-    </aside>
+            <div>
+                <h1>Free Courses</h1>
 
-  </main>
+                <ul>
+                    <li>Computer Science</li>
+                </ul>
 
-  <footer id="contact">
-    <p>Herald College Kathmandu</p>
-    <p class="footer-mail"><a href="#">sarayu@example.com</a></p>
-    <small>Built for 5CS045 Full Stack Web Development, Week 1.</small>
-  </footer>
+                <video controls>
+                    <source src="videos/VideoProject_1.mp4" type="video/mp4">
+                    <source src="videos/VideoProject_1.ogg" type="video/ogg">
+                    Your browser does not support HTML video.
+                </video>
+
+                <ul>
+                    <li>Science In Marketing</li>
+                </ul>
+
+                <figure>
+                    <img src="images/science_marketing.webp" alt="Science In Marketing">
+                    <figcaption>Fig.1 - Science In Marketing</figcaption>
+                </figure>
+            </div>
+
+            <div>
+                <h1>Courses</h1>
+
+                <ul>
+                    <li>Data Science</li>
+                    <li>Machine Learning</li>
+                    <li>Bio Technology</li>
+                    <li>Finance & Accounting</li>
+                </ul>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="fotter">
+
+        <div id="contact">
+            <h3>Study KTM, Kathmandu</h3>
+            <p class="footer-mail">
+                <a href="mailto:studyKTM@gmail.com">studyKTM@gmail.com</a>
+            </p>
+        </div>
+
+        <div id="about_us">
+            <h3>About Us</h3>
+            <p>
+                Study KTM is an online learning platform from Kathmandu, Nepal.
+                We offer both free and paid courses.
+            </p>
+        </div>
+
+    </footer>
 
 </body>
+
 </html>
